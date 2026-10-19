@@ -1,0 +1,38 @@
+{
+  "geode": "v4.0.0",
+  "gd": {
+    "win": "2.2074"
+  },
+  "id": "sean.predictive-input-buffer",
+  "name": "Predictive Input Buffer",
+  "version": "v1.0.0",
+  "developer": "Sean",
+  "description": "In-game predictive input buffer console prototype with stage presets and tick controls.",
+  "repository": "https://github.com/your-name/predictive-input-buffer",
+  "tags": [
+    "gameplay",
+    "interface",
+    "utility"
+  ],
+  "settings": {
+    "cycle-stage": {
+      "name": "Cycle stage",
+      "description": "Cycle through the input-buffer presets.",
+      "type": "keybind",
+      "default": "F6",
+      "category": "gameplay"
+    },
+    "toggle-buffer": {
+      "name": "Toggle buffer simulation",
+      "type": "keybind",
+      "default": "F7",
+      "category": "gameplay"
+    },
+    "open-console": {
+      "name": "Open console",
+      "type": "keybind",
+      "default": "F8",
+      "category": "universal"
+    }
+  }
+}
